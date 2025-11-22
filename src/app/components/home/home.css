@@ -11,7 +11,7 @@
     margin: 30px auto; 
     max-width: 800px;
     width: 90%; 
-    border: 2px solid #d2d2a2; 
+    border: 2px solid #2c2c26; 
     border-radius: 8px;
     transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
