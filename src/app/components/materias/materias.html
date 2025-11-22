@@ -1,0 +1,25 @@
+<!-- <div class="p-4 bg-white rounded shadow-sm" style="margin-left: 30px;">
+    <h3>Materias Disponibles</h3>
+<ul class="list-group">
+<li class="list-group-item" *ngFor="let m of materias"> {{m.id}}</li>
+<li class="list-group-item" *ngFor="let m of materias"> {{m.nombre}}</li>
+<li class="list-group-item" *ngFor="let m of materias"> {{m.creditos}}</li>
+</ul>
+</div> -->
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+    <th>ID</th>
+    <th>nombre</th>
+    <th>creditos</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let m of materia">
+      <td>{{ m.id }}</td>
+      <td>{{ m.nombre }}</td>
+      <td>{{ m.creditos }}</td>
+    </tr>
+  </tbody>
+</table>

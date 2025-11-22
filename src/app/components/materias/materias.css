@@ -1,0 +1,46 @@
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+    color: #050505;
+    text-align: center;
+}
+
+.desplegable-info-proyecto {
+    display: block; 
+    margin: 30px auto; 
+    max-width: 800px;
+    width: 90%; 
+    border: 2px solid #d2d2a2; 
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.desplegable-info-proyecto:hover {
+    /* Tono Rosa Pastel para la iluminación */
+    border-color: #d2d2a2; 
+    box-shadow: 0 0 10px #d2d2a2;
+    cursor: pointer; /* Indica que es interactivo */
+}
+
+.titulo-about {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; 
+    padding: 15px;
+    background-color: #F5F5DC; 
+    border-radius: 6px 6px 0 0;
+    text-align: center; 
+}
+
+.contenido-desplegado {
+    padding: 20px;
+    border-top: 2px solid #F5F5DC;
+
+    p {
+        text-align: center; 
+        margin: 0;
+        font-size: 1.05em;
+        line-height: 1.6;
+    }
+}
